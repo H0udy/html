@@ -1,1 +1,30 @@
-cos tam
+.theme
+{
+	text-align: center;
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Baskervville', serif;
+}
+
+.theme p
+{
+	margin-top: 30px;
+}
+
+.theme figure
+{
+	margin-top: 35px;
+}
+
+.navbar
+{
+	background-color: #f58323;
+	font-family: 'Abril Fatface', cursive;
+	
+}
+
+.nav-link
+{
+	font-size: 110%;
+}
+
