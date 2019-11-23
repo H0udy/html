@@ -1,9 +1,15 @@
+/* Background pattern from Toptal Subtle Patterns */
+
+body
+{
+	background-color: #303030;
+}
 .theme
 {
 	text-align: center;
-	background-color: #303030;
 	color: #ffffff;
 	font-family: 'Baskervville', serif;
+	padding: 0;
 }
 
 .theme p
@@ -18,10 +24,34 @@
 
 .navbar
 {
-	background-color: #f58323;
-	font-family: 'Abril Fatface', cursive;
+	background-image: url("img/tlo.png");
+	font-family: 'Sulphur Point', sans-serif;
 }
 
+.nav-item
+{
+	border-right-style: dotted;
+	letter-spacing: 2px;
+}
+header
+{
+	padding-top: 60px;
+}
+
+footer
+{
+	background-image: url("img/tlo.png");
+	text-align: center;
+	font-family: 'Sulphur Point', sans-serif;
+	color: #000000;
+	position: absolute;
+	width: 100%
+}
+.bord
+{
+	border-style: dotted;
+	margin-bottom: 5px;
+}
 
 
 
