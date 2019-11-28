@@ -1,10 +1,13 @@
-/* Background pattern from Toptal Subtle Patterns */
-
+html
+{
+	scroll-behavior: smooth;
+}
 body
 {
 	background-color: #303030;
 }
-.theme
+
+section
 {
 	text-align: center;
 	color: #ffffff;
@@ -12,19 +15,20 @@ body
 	padding: 0;
 }
 
-.theme p
+section p
 {
 	margin-top: 30px;
 }
 
-.theme figure
+section figure
 {
 	margin-top: 35px;
 }
 
+
 .navbar
 {
-	background-color: #aad5f1;
+	background-color: #d5e1e8;
 	font-family: 'Sulphur Point', sans-serif;
 	border-bottom-style: groove;
 	border-bottom-color: white;
@@ -40,6 +44,14 @@ body
 	border-radius: 15px;
 	padding: auto;
 }
+.nav-link
+{
+	color: #303030;
+}
+.navbar-brand
+{
+	color: #303030;
+}
 header
 {
 	padding-top: 60px;
@@ -51,7 +63,7 @@ header
 
 footer
 {
-	background-color: #aad5f1;
+	background-color: #d5e1e8;
 	text-align: center;
 	font-family: 'Sulphur Point', sans-serif;
 	color: #000000;
@@ -75,7 +87,29 @@ footer
 
 .nav-item:hover
 {
-	background-color: #99c4d0;
+	background-color: #303030;
+}
+.nav-link:hover
+{
+	color: #d5e1e8;
+}
+
+.navbar-brand:hover
+{
+	color: #303030;
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #d5e1e8;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #303030;
+    margin-bottom: 5px;
 }
 
 
